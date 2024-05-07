@@ -17,7 +17,7 @@ header {
 
 .navbar{
     display: flex;
-    padding: 20px;
+    padding: 10px;
     background-color: brown;
     
 }
@@ -109,8 +109,3 @@ footer{
     flex-basis: 100%;
 }
 
-@media screen and (max-width: 500px) {
-    nav, .row{
-        flex-direction: column;
-    }
-}
